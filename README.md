@@ -46,54 +46,13 @@ No third-party Python packages are required.
 CodeOrbit_PasswordStrengthChecker/
 ├── password_checker.py
 └── README.md
+└── Screenshots
 ```
 
 A `screenshots` folder may also be added to store screenshots of the program's actual output.
 
-## 6. Installation and Requirements
 
-The following are required:
-
-- A computer with Python 3 installed.
-- Visual Studio Code or another Python editor.
-
-Download Python from https://www.python.org/downloads/ if it is not already installed.
-
-## 7. How to Run the Program
-
-1. Open the project folder in Visual Studio Code.
-2. Open the integrated terminal using **Terminal → New Terminal**.
-3. Ensure the Python code is saved as `password_checker.py`.
-4. Run the following command:
-
-```bash
-py password_checker.py
-```
-
-If the `py` command is unavailable, try:
-
-```bash
-python password_checker.py
-```
-
-5. Enter a sample password when prompted.
-6. Review the score, strength classification, and improvement suggestions.
-
-**Security precaution:** Use sample passwords for testing. Never enter your real account passwords into an educational demonstration.
-
-## 8. Password Evaluation Method
-
-The program evaluates five criteria and calculates a score out of five.
-
-| Score | Strength classification |
-|---|---|
-| 0–2 | Weak |
-| 3–4 | Moderate |
-| 5 | Strong |
-
-The program uses Python's built-in string methods and the `any()` function to check character types.
-
-## 9. Test Cases
+## 6. Test Cases
 
 The following test cases correspond to the program's scoring logic.
 
@@ -105,7 +64,7 @@ The following test cases correspond to the program's scoring logic.
 
 These are example test cases. Run the program to verify the results and capture screenshots for your submission.
 
-## 10. Security Limitations
+## 7. Security Limitations
 
 This project is an educational demonstration and does not provide a complete assessment of password security.
 
@@ -117,7 +76,7 @@ This project is an educational demonstration and does not provide a complete ass
 
 For real accounts, use long, unique passwords or passphrases, consider a reputable password manager, and enable multi-factor authentication where available.
 
-## 11. Future Improvements
+## 8. Future Improvements
 
 Potential improvements include:
 
@@ -127,7 +86,7 @@ Potential improvements include:
 - Implementing automated unit tests.
 - Integrating a reputable password-strength estimation library.
 
-## 12. Conclusion
+## 9. Conclusion
 
 The Password Strength Checker demonstrates how Python can be applied to a basic cybersecurity problem. It introduces password-quality checks, conditional logic, functions, loops, and user feedback.
 
