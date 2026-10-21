@@ -46,7 +46,7 @@ No third-party Python packages are required.
 CodeOrbit_PasswordStrengthChecker/
 ├── password_checker.py
 └── README.md
-└── Screenshots
+└── Testing Screenshots
 ```
 
 A `screenshots` folder may also be added to store screenshots of the program's actual output.
